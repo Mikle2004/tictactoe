@@ -1,0 +1,115 @@
+body{
+    text-align: center;
+    width: min-content;
+    margin: 0 auto;
+    cursor: pointer;
+    background-color: cadetblue;
+    font-family:cursive;
+}
+.game{
+    display: inline-flex;
+    align-self: center;
+    border: 1px none black;
+    box-shadow: 5px 5px 5px 5px rgb(33, 4, 59);
+    border-radius: 10px;
+    background-color: lightseagreen;
+    color: lightcyan;
+    font-size: 30px;
+    position: relative;
+    font-weight: 900;
+}
+#first-line{
+    padding: 50px;
+    border-left: 2px black inset;
+    border-right: 1px none black inset;
+    border-top: 2px black inset;
+    border-bottom: 2px black inset;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#second-line{
+    padding: 50px;
+    border-left: 1px none black ridge;
+    border-top: 2px black inset;
+    border-bottom: 2px black inset;
+    border-right: 1px none black ridge;
+}
+#third-line{
+    padding: 50px;
+    border-left: 1px none black inset;
+    border-top: 2px black inset;
+    border-bottom: 2px black inset;
+    border-right: 2px black inset;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#one{
+    width: max-content;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+#two{
+        width: max-content;
+    padding: 20px;
+
+}
+#three{
+        width: max-content;
+    padding: 20px;
+
+}
+#four{
+        width: max-content;
+    padding: 20px;
+
+}
+#five{
+        width: max-content;
+    padding: 20px;
+
+}
+#six{
+        width: max-content;
+    padding: 20px;
+
+}
+#seven{
+        width: max-content;
+    padding: 20px;
+
+}
+#eight{
+        width: max-content;
+    padding: 20px;
+
+}
+#nine{
+        width: max-content;
+    padding: 20px;
+
+}
+.indice{
+    display: inline-flex;
+    flex-direction: row;
+    padding: 5px;
+    color: white;
+    font-weight: 1000;
+    align-items: center;
+
+}
+#p1{
+    padding: 25px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+#p2{
+    padding: 25px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+h1{
+    color:rgb(27, 1, 1);
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
